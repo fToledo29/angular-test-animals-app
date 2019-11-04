@@ -6,6 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['home.component.css']
 })
 export class HomeComponent {
-  imgPath = 'https://cdn.jsdelivr.net/gh/fToledo29/angular-test-animals-app@master/src/assets/imgs/whatsapp-logo-encapsulated-postscript-the-start-button.jpg';
-  //'../../assets/imgs/logo-start-button.jpg'
+  imgPath = 'https://cdn.jsdelivr.net/gh/fToledo29/angular-test-animals-app@master/src/assets/imgs/start-icon-png-25.jpg';
 }
