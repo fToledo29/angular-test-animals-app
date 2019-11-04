@@ -1,0 +1,55 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <input
+        (change)="onDataChange()"
+        [(ngModel)]="animal"
+        type="text"
+        name="animalKind"
+        id="animalKind" >
+    </div>
+    <div class="col">
+      <span> Animal actions:  {{actionExecuted}} </span>
+    </div>
+    <div class="col align-middle">
+      <span> Energy:  {{animalEnergy}} </span>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <input
+      class="btn btn-primary"
+      type="submit"
+      value="Sleep"
+      (click)="onSleeping()">
+      <input
+        class="btn btn-primary"
+        type="submit"
+        value="Make a sound"
+        (click)="onMakeASound()">
+        <input
+        class="btn btn-primary"
+        type="submit"
+        value="Eat"
+        (click)="onEating()">
+    </div>
+    <div class="col">
+      <input
+        class="btn btn-primary"
+        type="submit"
+        value="Energy +"
+        (click)="onDecrees()">
+      <input
+        class="btn btn-primary"
+        type="submit"
+        value="Energy -"
+        (click)="onIncrease()">
+        <input
+        *ngIf="animal === 'Monkey'"
+        class="btn btn-primary"
+        type="submit"
+        value="Play"
+        (click)="onMonkeyPlay()">
+    </div>
+  </div>
+</div>

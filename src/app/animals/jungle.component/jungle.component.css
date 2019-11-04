@@ -1,0 +1,14 @@
+.row {
+  padding: 10px;
+  vertical-align: middle;
+}
+
+.col span {
+  height: auto;
+  position: absolute;
+  top: 20%;
+}
+
+.col input {
+  margin: 15px;
+}
