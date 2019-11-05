@@ -8,11 +8,13 @@ import { Animals } from './animals/animals.module';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
+import { EmptyComponent } from './empty/empty.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    EmptyComponent
   ],
   imports: [
     AppRoutingModule,
