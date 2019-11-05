@@ -2,6 +2,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 // **Custom**
 import { Animals } from './animals/animals.module';
 // Components
@@ -20,6 +21,7 @@ import { StartComponent } from './start/start.component';
     AppRoutingModule,
     BrowserModule,
     FormsModule,
+    BrowserAnimationsModule,
     Animals
   ],
   providers: [],
