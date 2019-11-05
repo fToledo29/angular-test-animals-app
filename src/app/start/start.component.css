@@ -12,5 +12,7 @@
 }
 
 .snake-container {
-  background-color: aquamarine;
+  background-color: #d5f8ec;
+  position: relative;
+  text-align: center;
 }
