@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { EmptyComponent } from './empty/empty.component';
+import { StartComponent } from './start/start.component';
 import { JungleComponent } from './animals/jungle.component/jungle.component'
 
 const routes: Routes = [
-  {path: '', component: EmptyComponent},
+  {path: '', component: StartComponent},
   {path: 'game', component: JungleComponent}
 ];
 

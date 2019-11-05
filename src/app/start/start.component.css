@@ -1,0 +1,16 @@
+.snake-container {
+  width: 100%;
+  height: 3rem;
+}
+.snake-container img {
+  transition:1s;
+  right: calc(100% - 100px);
+}
+
+.snake-container img:hover {
+  right:0;
+}
+
+.snake-container {
+  background-color: aquamarine;
+}
