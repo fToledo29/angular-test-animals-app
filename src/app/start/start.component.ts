@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 
 export class StartComponent {
-  snakeImgPath = 'https://cdn.jsdelivr.net/gh/fToledo29/angular-test-animals-app@dev/src/assets/imgs/snake_2.1.png';
+  snakeImgPath = 'https://cdn.jsdelivr.net/gh/fToledo29/angular-test-animals-app@dev/src/assets/imgs/snake-149010_1280.png';
 
   // getTransfor() {
   //   return `translateX($(245 - ))`
