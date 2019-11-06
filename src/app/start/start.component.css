@@ -5,11 +5,12 @@
 .snake-container img {
   width: 15rem;
   height: 7rem;
+  position: absolute;
 }
 
-.snake-container img:hover {
+/* .snake-container img:hover {
   right:0;
-}
+} */
 
 .snake-container {
   background-color: #d5f8ec;
