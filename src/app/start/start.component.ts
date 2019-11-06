@@ -7,10 +7,10 @@ import { trigger, state, style, animate, transition } from '@angular/animations'
   styleUrls: ['./start.component.css'],
   animations: [
     trigger('EnterLeave', [
-      state('flyIn', style({transform: 'translateX(-100%)'})),
+      state('flyIn', style({transform: 'translateX(0px)'})),
       transition(':enter', [
-        style({transform: 'translateX(400%)'}),
-        animate('2.5s 300ms ease-in')
+        style({transform: 'translateX(100%)'}),
+        animate('1.5s 300ms ease-in')
       ]),
       transition(':leave', [
         animate('0.3s ease-out', style({transform: 'translateX(-100%)'}))
