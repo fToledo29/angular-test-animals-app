@@ -9,10 +9,11 @@ import { AnimalMock } from '../../shared/mockData/animal.mock';
 })
 
 export class ZooComponent {
-  public animal: Animal;
+  public animals: Animal[];
 
   constructor() {
     let mock = new AnimalMock();
-    this.animal = mock.getData();
+    this.animals = mock.getData();
+    console.log(this.animals);
   }
 }
