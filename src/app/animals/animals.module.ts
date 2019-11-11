@@ -1,10 +1,14 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { JungleComponent } from './jungle.component/jungle.component';
+import { JungleComponent } from './jungle/jungle.component';
 import { FormsModule } from '@angular/forms';
+import { ZooComponent }  from './zoo/zoo.component';
 
 @NgModule({
-  declarations:[JungleComponent],
+  declarations:[
+    JungleComponent,
+    ZooComponent
+    ],
   imports: [
     FormsModule,
     BrowserModule
