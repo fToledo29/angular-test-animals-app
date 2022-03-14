@@ -1,6 +1,5 @@
 export class Actions {
   public energy = 0;
-
   animalKind = '';
   sound = '';
   constructor(animalKind: string, sound: string) {
